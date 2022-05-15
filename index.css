@@ -31,16 +31,35 @@ h1 {
     margin-top: 10px;
 }
 
-.generate {
-    margin: 50px 0 35px 120px;
-    display: flex;
+.btn {
+    margin: 50px 10px 0px 0px;
     align-items: center;
     padding: 9px 17px 9px 15px;
-    gap: 12px;
     border-radius: 6px;
     background: #10B981;
     border: 0;
     color: white;
+}
+
+.pwd-length {
+    display: inline-block;
+    font-family: "Inter", sans-serif;
+    padding: 10px 5px; 
+    background: #273549;
+    margin: 0 10px 0px 120px;
+    width: 150px;
+    border-radius: 6px;
+    color: #55F991;
+    font-size: 16px;
+    white-space: nowrap;
+    border-style: none;
+}
+
+.note {
+    color: white;
+    font-family: "Karla", "Inter", sans-serif;
+    font-size: 14px;
+    margin: 10px 0 30px 120px;
 }
 
 .group1 {
@@ -65,7 +84,6 @@ h1 {
     color: #55F991;
     font-size: 16px;
     white-space: nowrap;
-    /* test comment */
 }
 
 hr {
@@ -76,3 +94,5 @@ hr {
     border: none;
     height: 2px;
 }
+
+
